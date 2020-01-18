@@ -1,0 +1,100 @@
+2020-01-18T18:41:48.922912+00:00 app[web.1]: code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+2020-01-18T18:41:48.922914+00:00 app[web.1]: fatal: false
+2020-01-18T18:41:48.922916+00:00 app[web.1]: }
+2020-01-18T18:41:48.932392+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-01-18T18:41:48.932709+00:00 app[web.1]: npm ERR! errno 1
+2020-01-18T18:41:48.933650+00:00 app[web.1]: npm ERR! burger@1.0.0 start: `node server.js`
+2020-01-18T18:41:48.933910+00:00 app[web.1]: npm ERR! Exit status 1
+2020-01-18T18:41:48.933989+00:00 app[web.1]: npm ERR!
+2020-01-18T18:41:48.934124+00:00 app[web.1]: npm ERR! Failed at the burger@1.0.0 start script.
+2020-01-18T18:41:48.934260+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-01-18T18:41:48.942916+00:00 app[web.1]: 
+2020-01-18T18:41:48.943061+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-01-18T18:41:48.943156+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-01-18T18_41_48_935Z-debug.log
+2020-01-18T18:41:49.016519+00:00 heroku[web.1]: State changed from up to crashed
+2020-01-18T18:41:49.021372+00:00 heroku[web.1]: State changed from crashed to starting
+2020-01-18T18:41:48.928776+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/burgers" host=infinite-shore-50035.herokuapp.com request_id=a73443c6-1d7d-4814-993b-0a4e1391268f fwd="141.166.142.142" dyno=web.1 connect=0ms service=15ms status=503 bytes=0 protocol=https
+2020-01-18T18:41:48.898135+00:00 heroku[router]: at=info method=GET path="/" host=infinite-shore-50035.herokuapp.com request_id=fa39171e-5905-462b-9fb6-8e8945e62be1 fwd="141.166.142.142" dyno=web.1 connect=0ms service=28ms status=302 bytes=255 protocol=https
+2020-01-18T18:41:49.000559+00:00 heroku[web.1]: Process exited with status 1
+2020-01-18T18:41:51.090902+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-01-18T18:41:53.545815+00:00 app[web.1]: 
+2020-01-18T18:41:53.545862+00:00 app[web.1]: > burger@1.0.0 start /app
+2020-01-18T18:41:53.545864+00:00 app[web.1]: > node server.js
+2020-01-18T18:41:53.545865+00:00 app[web.1]: 
+2020-01-18T18:41:53.873772+00:00 app[web.1]: Listening on port:56525
+2020-01-18T18:41:53.877845+00:00 app[web.1]: error connecting: Error: connect ECONNREFUSED 127.0.0.1:3306
+2020-01-18T18:41:53.877849+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+2020-01-18T18:41:53.877851+00:00 app[web.1]: --------------------
+2020-01-18T18:41:53.877854+00:00 app[web.1]: at Protocol._enqueue (/app/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+2020-01-18T18:41:53.877856+00:00 app[web.1]: at Protocol.handshake (/app/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+2020-01-18T18:41:53.877858+00:00 app[web.1]: at Connection.connect (/app/node_modules/mysql/lib/Connection.js:119:18)
+2020-01-18T18:41:53.877860+00:00 app[web.1]: at Object.<anonymous> (/app/config/connection.js:12:12)
+2020-01-18T18:41:53.877862+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-01-18T18:41:53.877865+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-01-18T18:41:53.877867+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:811:32)
+2020-01-18T18:41:53.877869+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-01-18T18:41:53.877871+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:848:19)
+2020-01-18T18:41:53.877873+00:00 app[web.1]: at require (internal/modules/cjs/helpers.js:74:18)
+2020-01-18T18:41:54.828341+00:00 heroku[web.1]: State changed from starting to up
+2020-01-18T18:41:58.159368+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=infinite-shore-50035.herokuapp.com request_id=f5f1c73a-38ec-4139-aea7-df480836689f fwd="141.166.142.142" dyno=web.1 connect=5000ms service=16ms status=404 bytes=394 protocol=https
+2020-01-18T18:44:25.000000+00:00 app[api]: Build started by user vincentncaracciolo@gmail.com
+2020-01-18T18:44:42.395568+00:00 heroku[web.1]: Restarting
+2020-01-18T18:44:42.409918+00:00 heroku[web.1]: State changed from up to starting
+2020-01-18T18:44:42.218605+00:00 app[api]: Deploy ffa5282f by user vincentncaracciolo@gmail.com
+2020-01-18T18:44:42.218605+00:00 app[api]: Release v7 created by user vincentncaracciolo@gmail.com
+2020-01-18T18:44:42.000000+00:00 app[api]: Build succeeded
+2020-01-18T18:44:43.427682+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-01-18T18:44:43.529162+00:00 heroku[web.1]: Process exited with status 143
+2020-01-18T18:44:44.323331+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-01-18T18:44:47.421877+00:00 heroku[web.1]: State changed from starting to up
+2020-01-18T18:44:47.114837+00:00 app[web.1]: 
+2020-01-18T18:44:47.114861+00:00 app[web.1]: > burger@1.0.0 start /app
+2020-01-18T18:44:47.114863+00:00 app[web.1]: > node server.js
+2020-01-18T18:44:47.114865+00:00 app[web.1]: 
+2020-01-18T18:44:47.373673+00:00 app[web.1]: Listening on port:50148
+2020-01-18T18:44:47.378732+00:00 app[web.1]: error connecting: Error: connect ECONNREFUSED 127.0.0.1:3306
+2020-01-18T18:44:47.378798+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+2020-01-18T18:44:47.378806+00:00 app[web.1]: --------------------
+2020-01-18T18:44:47.378841+00:00 app[web.1]: at Protocol._enqueue (/app/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+2020-01-18T18:44:47.378843+00:00 app[web.1]: at Protocol.handshake (/app/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+2020-01-18T18:44:47.378845+00:00 app[web.1]: at Connection.connect (/app/node_modules/mysql/lib/Connection.js:119:18)
+2020-01-18T18:44:47.378847+00:00 app[web.1]: at Object.<anonymous> (/app/config/connection.js:12:12)
+2020-01-18T18:44:47.378849+00:00 app[web.1]: at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-01-18T18:44:47.378850+00:00 app[web.1]: at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-01-18T18:44:47.378852+00:00 app[web.1]: at Module.load (internal/modules/cjs/loader.js:811:32)
+2020-01-18T18:44:47.378854+00:00 app[web.1]: at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-01-18T18:44:47.378856+00:00 app[web.1]: at Module.require (internal/modules/cjs/loader.js:848:19)
+2020-01-18T18:44:47.378858+00:00 app[web.1]: at require (internal/modules/cjs/helpers.js:74:18)
+2020-01-18T18:45:06.679216+00:00 app[web.1]: /app/config/orm.js:44
+2020-01-18T18:45:06.679240+00:00 app[web.1]: throw err;
+2020-01-18T18:45:06.679243+00:00 app[web.1]: ^
+2020-01-18T18:45:06.679245+00:00 app[web.1]: 
+2020-01-18T18:45:06.679248+00:00 app[web.1]: Error: Cannot enqueue Query after fatal error.
+2020-01-18T18:45:06.679251+00:00 app[web.1]: at Protocol._validateEnqueue (/app/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+2020-01-18T18:45:06.679252+00:00 app[web.1]: at Protocol._enqueue (/app/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+2020-01-18T18:45:06.679254+00:00 app[web.1]: at Connection.query (/app/node_modules/mysql/lib/Connection.js:201:25)
+2020-01-18T18:45:06.679256+00:00 app[web.1]: at Object.all (/app/config/orm.js:42:18)
+2020-01-18T18:45:06.679257+00:00 app[web.1]: at Object.all (/app/models/burger.js:6:9)
+2020-01-18T18:45:06.679259+00:00 app[web.1]: at /app/controllers/burgers_controller.js:14:10
+2020-01-18T18:45:06.679261+00:00 app[web.1]: at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2020-01-18T18:45:06.679262+00:00 app[web.1]: at next (/app/node_modules/express/lib/router/route.js:137:13)
+2020-01-18T18:45:06.679264+00:00 app[web.1]: at Route.dispatch (/app/node_modules/express/lib/router/route.js:112:3)
+2020-01-18T18:45:06.679266+00:00 app[web.1]: at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5) {
+2020-01-18T18:45:06.679267+00:00 app[web.1]: code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+2020-01-18T18:45:06.679269+00:00 app[web.1]: fatal: false
+2020-01-18T18:45:06.679270+00:00 app[web.1]: }
+2020-01-18T18:45:06.685640+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2020-01-18T18:45:06.685871+00:00 app[web.1]: npm ERR! errno 1
+2020-01-18T18:45:06.686756+00:00 app[web.1]: npm ERR! burger@1.0.0 start: `node server.js`
+2020-01-18T18:45:06.686856+00:00 app[web.1]: npm ERR! Exit status 1
+2020-01-18T18:45:06.686971+00:00 app[web.1]: npm ERR!
+2020-01-18T18:45:06.687050+00:00 app[web.1]: npm ERR! Failed at the burger@1.0.0 start script.
+2020-01-18T18:45:06.687134+00:00 app[web.1]: npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+2020-01-18T18:45:06.694663+00:00 app[web.1]: 
+2020-01-18T18:45:06.694807+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2020-01-18T18:45:06.694931+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2020-01-18T18_45_06_687Z-debug.log
+2020-01-18T18:45:06.762800+00:00 heroku[web.1]: State changed from up to crashed
+2020-01-18T18:45:06.683467+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/burgers" host=infinite-shore-50035.herokuapp.com request_id=732afd5b-71ad-4c39-8bf5-4f9067392151 fwd="141.166.142.142" dyno=web.1 connect=0ms service=10ms status=503 bytes=0 protocol=https
+2020-01-18T18:45:06.743573+00:00 heroku[web.1]: Process exited with status 1
+2020-01-18T18:45:06.659116+00:00 heroku[router]: at=info method=GET path="/" host=infinite-shore-50035.herokuapp.com request_id=373845f1-4f80-4f5b-bd3c-37dab51aea2e fwd="141.166.142.142" dyno=web.1 connect=0ms service=13ms status=302 bytes=255 protocol=https
+2020-01-18T18:45:27.518209+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=infinite-shore-50035.herokuapp.com request_id=ef377ccd-cfbd-4efa-89fd-9ce03a4b0ed8 fwd="141.166.142.142" dyno= connect= service= status=503 bytes= protocol=https
