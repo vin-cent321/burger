@@ -1,10 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
-<<<<<<< HEAD
-=======
-require('dotenv').config()
->>>>>>> 4a427630e7bab78b7469c76ca0fa05e26ba340c7
 
 var PORT = process.env.PORT || 8000;
 var app = express();
